@@ -4,10 +4,6 @@ import { Layout } from '../components/feature/Layout';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 
-export function loader() {
-  return null;
-}
-
 // Baseado no formulário oficial de avaliação de risco do DF
 const questions = [
   // BLOCO I - Fatores de Risco Históricos

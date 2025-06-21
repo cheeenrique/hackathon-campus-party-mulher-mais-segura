@@ -4,9 +4,7 @@ import { Layout } from '../components/feature/Layout'
 import { Button } from '../components/ui/Button'
 import { Input } from '../components/ui/Input'
 
-export async function loader() {
-  return null
-}
+
 
 interface Service {
   id: number

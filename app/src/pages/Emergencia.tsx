@@ -15,10 +15,6 @@ import {
 import { Layout } from '../components/feature/Layout';
 import { Button } from '../components/ui/Button';
 
-export function loader() {
-  return null;
-}
-
 export default function Emergencia() {
   const [emergencyTriggered, setEmergencyTriggered] = useState(false);
   const [location, setLocation] = useState<{ lat: number; lng: number } | null>(null);

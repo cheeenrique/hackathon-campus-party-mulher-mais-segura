@@ -4,9 +4,7 @@ import { Shield, AlertTriangle, CheckCircle } from 'lucide-react'
 import { Layout } from '../components/feature/Layout'
 import { Button } from '../components/ui/Button'
 
-export async function loader() {
-  return null
-}
+
 
 export default function AvaliacaoSeguranca() {
   return (

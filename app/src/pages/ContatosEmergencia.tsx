@@ -3,9 +3,7 @@ import { Phone, MapPin, Users, AlertTriangle, Clock, Shield, Scale, Heart, Zap }
 import { Layout } from '../components/feature/Layout'
 import { Button } from '../components/ui/Button'
 
-export async function loader() {
-  return null
-}
+
 
 const priorityContacts = [
   {

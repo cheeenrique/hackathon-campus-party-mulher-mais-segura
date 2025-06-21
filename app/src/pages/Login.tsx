@@ -4,10 +4,6 @@ import { Heart } from 'lucide-react'
 import { Button } from '../components/ui/Button'
 import { Input } from '../components/ui/Input'
 
-export async function loader() {
-  return null
-}
-
 export default function Login() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [formData, setFormData] = useState({
